@@ -1,0 +1,12 @@
+name: project-jackson
+# generator: static
+# path: "./manifests"
+subcomponents:
+  - name: services
+    source: "./services"
+  - name: "cloud-native"
+    source: "https://github.com/timfpark/fabrikate-cloud-native"
+    method: "git"
+  # - name: "project-jackson"
+  #   source: "https://github.com/Microsoft/fabrikate-entref-spring-boot"
+  #   method: "git"
